@@ -1,4 +1,4 @@
-Go template
+# Go template
 
 go开发模板
 
