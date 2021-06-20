@@ -1,6 +1,6 @@
-# Go template
+RICN Smart Iot Platform
 
-go开发模板
+卫川物联网平台
 
 ## 开发人员
 

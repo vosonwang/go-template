@@ -7,15 +7,13 @@ import (
 )
 
 type Style struct {
-	Success bool        `json:"success"`
-	Message string      `json:"message"`
-	Data    interface{} `json:"data,omitempty"`
+	Message string      `json:"message,omitempty"` // 错误消息
+	Data    interface{} `json:"data,omitempty"`    // 实际数据
 }
 
 func OK(c echo.Context, data interface{}) error {
 	return c.JSON(http.StatusOK, Style{
-		Success: true,
-		Data:    data,
+		Data: data,
 	})
 }
 

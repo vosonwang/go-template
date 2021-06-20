@@ -6,7 +6,7 @@ import (
 
 func Register(g *echo.Group) {
 
-	v2 := g.Group("/v1")
+	v1 := g.Group("v1/")
 
-	v2.POST("/login", login)
+	v1.POST("login", login)
 }

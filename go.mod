@@ -9,6 +9,7 @@ require (
 	github.com/go-openapi/jsonreference v0.19.6 // indirect
 	github.com/go-openapi/spec v0.20.3 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
+	github.com/golang-jwt/jwt v3.2.1+incompatible
 	github.com/labstack/echo/v4 v4.3.0
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/nacos-group/nacos-sdk-go v1.0.8
